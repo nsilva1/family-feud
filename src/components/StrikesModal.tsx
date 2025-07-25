@@ -12,7 +12,7 @@ const StrikesModal = ({ isOpen, onClose, onSwitchTeam }: StrikesModalProps) => {
   }
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div className="fixed inset-0 bg-black/30 bg-opacity-50 flex items-center justify-center">
       <div className="bg-white p-6 rounded-md text-center">
         <h2 className="text-xl font-bold mb-4">Maximum Strikes Reached!</h2>
         <p className="mb-4">The maximum number of strikes (3) has been reached for the current team.</p>

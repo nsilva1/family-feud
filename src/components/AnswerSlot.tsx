@@ -7,7 +7,7 @@ export const AnswerSlot = ({ answer, revealed, index }: {
 }) => {
   return (
     <motion.div
-      className="bg-blue-100 p-4 rounded-md text-lg text-center my-2"
+      className="bg-transparent p-1 rounded-md text-lg text-center my-2 dark:text-white"
       initial={{ opacity: 0 }}
       animate={{ opacity: revealed ? 1 : 0 }}
       transition={{ delay: 0.2 * index }}
